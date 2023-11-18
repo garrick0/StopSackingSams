@@ -32,7 +32,7 @@ jobs:
     - run: npm test
     - name: Test failure RCA
       if: ${{ failure() }}
-      run: ts-node src/testHasFailed.ts
+      run: npx ts-node src/testHasFailed.ts
 
 
 
