@@ -1,0 +1,25 @@
+{
+  "name": "stopsackingsams",
+  "version": "1.0.0",
+  "description": "Outage and test failure RCA by running RAG on public vendor availability.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "vitest": {
+    "globals": true,
+    "environment": "node"
+  }
+  
+}
