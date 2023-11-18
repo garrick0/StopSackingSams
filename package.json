@@ -4,7 +4,6 @@
   "description": "Outage and test failure RCA by running RAG on public vendor availability.",
   "main": "index.js",
   "scripts": {
-    
     "start": "tsc && node index.js",
     "build": "tsc",
     "test": "vitest"
@@ -22,5 +21,4 @@
     "globals": true,
     "environment": "node"
   }
-  
 }
